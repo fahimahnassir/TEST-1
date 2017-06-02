@@ -1,0 +1,5 @@
+
+  filename = "FIRST.txt"
+  file = assert(io.open(filename, "r"))
+  stringOne = file:read("all")
+  print("whole thing:\n\n"..stringOne)

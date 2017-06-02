@@ -1,0 +1,5 @@
+function newDeck (name)
+   local f = io.open(name.."FIRST.txt", "w")
+   f:write("<Title=\""..name.."\"/>\n")
+   f:close()
+end
